@@ -1,8 +1,15 @@
+import { purple } from "@mui/material/colors";
 import { createTheme } from "@mui/system";
 
 export const theme = createTheme(
     {
-        components: {
+        palette:{
+            primary: {
+                main: purple
+            }
+        },
+        typography: {
+            fontSize: '1.2rem',        
         }
     }
 )
